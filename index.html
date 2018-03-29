@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Color Picker</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<div class="pickerForm">
+	<div class="pickerControl">
+		<label for="red">Red</label>
+		<input type="range" id="redVal" class="picker" value="0" min="0" max="255">
+		<span id="redValue">0</span>
+	</div>
+	<div class="pickerControl">
+		<label for="green">Green</label>
+		<input type="range" id="greenVal" class="picker" value="0" min="0" max="255">
+		<span id="greenValue">0</span>
+	</div>
+	<div class="pickerControl">
+		<label for="blue">Blue</label>
+		<input type="range" id="blueVal" class="picker" value="0" min="0" max="255">
+		<span id="blueValue">0</span>
+	</div>
+</div>
+	<div id="colorBox"></div>
+
+
+</body>
+<script type="text/javascript" src="./script.js"></script>
+</html>
